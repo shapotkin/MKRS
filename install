@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp --backup -f ./rc.local /etc/rc.local
+ln -f -s -r ./build/demo /usr/sbin
